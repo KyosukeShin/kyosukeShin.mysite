@@ -1,0 +1,129 @@
+@charset "UTF-8";
+body {
+  background-color: #e2d8d8;
+  color: #4D4D4D;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 8px 0  0 8px;
+  font-size: 40px;
+}
+header img {
+  width: 60px;
+  height: 100%;
+  margin-top: 6px;
+  margin-right: 15px;
+  transform: rotate(20deg);
+}
+.hoge {
+  position: relative;
+  transform: translate(0, -140%);
+}
+.hoge ul {
+  width: 80%;
+  display: table;
+  table-layout: fixed;
+  list-style: none;
+}
+.hoge li {
+  display: table-cell;
+  text-align: center;
+  font-size: 13px;
+}
+.hoge a {
+  display: block;
+  text-decoration: none;
+  color: #4D4D4D;
+}
+.hoge li a:hover {
+  color: rgb(196, 196, 80);
+}
+.maru {
+  color: rgb(196, 196, 80);
+  text-align: center;
+}
+.foo {
+  font-size: 19px;
+  width: 90px;
+  padding: 9px 0;
+  margin: 30px auto 15px 20px;
+  text-align: center;
+  background-color: rgb(196, 196, 80);
+  color: #f1ebeb;
+  border: 2px solid rgb(165, 159, 159);
+}
+main ul {
+  font-size: 17px;
+  margin: 0 auto 50px 10px;
+  padding: 10px 0;
+  border-top: 1px solid rgb(172, 168, 168);
+  border-bottom: 1px solid rgb(172, 168, 168);
+  width: 300px;
+}
+main li {
+  margin-bottom: 7px;
+}
+.information {
+  background: rgba(232, 53, 86, 1);
+  color: #f1ebeb;
+  font-size: 13px;
+  display: flex;
+  padding: 10px 0 8px;
+  margin: 15px 0;
+}
+.tel {
+  align-self: center;
+  margin-left: auto;
+}
+.mail {
+  align-self: center;
+  margin-left: auto;
+}
+.twitter {
+  margin: 0 auto;
+}
+.copy {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-bottom: 7px;
+}
+
+@media print, screen and (min-width: 768px) {
+  header h1 {
+    margin: 0;
+    padding-left: 100px;
+    font-size: 55px;
+    line-height: 2.0;
+  }
+  header img {
+    margin-top: 5px;
+    margin-right: 50px;
+  }
+  .hoge ul {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .hoge li {
+    font-size: 18px;
+  }
+  .foo {
+    padding: 9px 10px;
+    margin: 30px auto 15px;
+  }
+  main ul {
+    margin: 0 auto 50px;
+    padding: 10px 40px;
+    list-style: none;
+  }
+  main li {
+    margin-bottom: 10px;
+  }
+  .information {
+    font-size: 14px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+}
