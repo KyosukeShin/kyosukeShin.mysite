@@ -1,0 +1,219 @@
+@charset "UTF-8";
+body {
+  background-color: #e2d8d8;
+  color: #4D4D4D;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 8px 0  0 8px;
+  font-size: 40px;
+}
+header img {
+  width: 60px;
+  height: 100%;
+  margin-top: 6px;
+  margin-right: 15px;
+  transform: rotate(20deg);
+}
+.hoge {
+  position: relative;
+  transform: translate(0, -140%);
+}
+.hoge ul {
+  width: 80%;
+  display: table;
+  table-layout: fixed;
+  list-style: none;
+}
+.hoge li {
+  display: table-cell;
+  text-align: center;
+  font-size: 13px;
+}
+.hoge a {
+  display: block;
+  text-decoration: none;
+  color: #4D4D4D;
+}
+.hoge li a:hover {
+  color: rgb(125, 196, 224);
+}
+main section {
+  width: 300px;
+  padding-bottom: 20px;
+}
+.birthday {
+  margin: 20px auto 55px;
+  border-top: 3.5px solid rgb(125, 196, 224);
+  border-bottom: 3.5px solid rgb(125, 196, 224);
+}
+.qualification {
+  margin: 0 auto 55px;
+  border-bottom: 3.5px solid rgb(125, 196, 224);
+}
+.section-ul {
+  display: flex;
+}
+.section-ul li {
+  margin-bottom: 15px;
+}
+.section-ul img {
+  width: 70px;
+  margin: 0 auto;
+}
+.license {
+  margin: 0 auto 55px;
+  border-bottom: 3.5px solid rgb(125, 196, 224);
+}
+.license ul li {
+  margin-bottom: 15px;
+}
+.section-title {
+  font-size: 25px;
+  width: 100px;
+  border-bottom: 1.5px solid rgb(125, 196, 224);
+  padding-bottom: 5px;
+  margin: 25px 0 15px;
+}
+.section-title2 {
+  font-size: 25px;
+  width: 100px;
+  border-bottom: 1.5px solid rgb(125, 196, 224);
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+.section-title3 {
+  font-size: 25px;
+  width: 100px;
+  border-bottom: 1.5px solid rgb(125, 196, 224);
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+section ul {
+  list-style: none;
+}
+.consultation {
+  margin: 0 auto;
+}
+.inquiry {
+  width: 100px;
+  font-size: 14px;
+  text-align: center;
+  color: #f1ebeb;
+  background-color: rgb(125, 196, 224);
+  border-radius: 6px;
+  padding: 3px 0;
+  display: inline-block;
+  margin-top: 10px;
+}
+.consultation a {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+.consultation a:hover {
+  opacity: 0.7;
+}
+.information {
+  background: rgba(232, 53, 86, 1);
+  color: #f1ebeb;
+  font-size: 13px;
+  display: flex;
+  padding: 10px 0 8px;
+  margin: 15px 0;
+}
+.tel {
+  align-self: center;
+  margin-left: auto;
+}
+.mail {
+  align-self: center;
+  margin-left: auto;
+}
+.twitter {
+  margin: 0 auto;
+}
+.copy {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-bottom: 7px;
+}
+
+@media print, screen and (min-width: 768px) {
+  header h1 {
+    margin: 0;
+    padding-left: 100px;
+    font-size: 55px;
+    line-height: 2.0;
+  }
+  header img {
+    margin-top: 5px;
+    margin-right: 50px;
+  }
+  .hoge ul {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .hoge li {
+    font-size: 18px;
+  }
+  main section {
+    width: 700px;
+    /* padding-bottom: 20px; */
+  }
+  .section-title {
+    margin-left: 40px;
+  }
+  .section-title2 {
+    margin-left: 40px;
+  }
+  .section-title3 {
+    margin-left: 40px;
+  }
+  .baz {
+    margin-left: 60px;
+  }
+  .qualification {
+    position: relative;
+  }
+  .section-ul {
+    margin-left: 60px; 
+  }
+  .section-ul ul li {
+    margin-bottom: 30px;
+  }
+  .section-ul img {
+    width: 150px;
+    margin: 0 auto;
+    position: absolute;
+    top: -20px;
+    right: 170px;
+  }
+  .license ul {
+    margin-left: 60px;
+  }
+  .consultation {
+    display: flex;
+  }
+  .consultation span {
+    height: 44px;
+    line-height: 44px;
+    margin-left: 100px;
+  }
+  .consultation a {
+    margin: 0 0 0 40px;
+  }
+  .inquiry {
+    margin: 0;
+    padding: 15px 0;
+    border-radius: 15px;
+  }
+  .information {
+    font-size: 14px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+}
