@@ -1,0 +1,194 @@
+@charset "UTF-8";
+body {
+  background-color: #e2d8d8;
+  color: #4D4D4D;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 8px 0  0 8px;
+  font-size: 40px;
+}
+header img {
+  width: 60px;
+  height: 100%;
+  margin-top: 6px;
+  margin-right: 15px;
+  transform: rotate(20deg);
+}
+.hoge {
+  position: relative;
+  transform: translate(0, -140%);
+}
+.hoge ul {
+  width: 80%;
+  display: table;
+  table-layout: fixed;
+  list-style: none;
+}
+.hoge li {
+  display: table-cell;
+  text-align: center;
+  font-size: 13px;
+}
+.hoge a {
+  display: block;
+  text-decoration: none;
+  color: #4D4D4D;
+}
+.hoge li a:hover {
+  color: rgb(125, 196, 224);
+}
+.top-pic {
+  padding: 10px;
+}
+.top-pic img {
+  width: 100%;
+}
+.catch-logo {
+  font-size: 30px;
+  padding-left: 8px;
+  margin-bottom: 15px;
+}
+.catch-logo2 {
+  font-size: 20px;
+  text-align: center;
+}
+.each {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0;
+  margin: 15px 0;
+}
+.career {
+  color: #f1ebeb;
+  background-color: rgba(232, 53, 86, 1);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  line-height: 80px;
+  display: inline-block;
+  text-align: center;
+}
+.baz {
+  color: #f1ebeb;
+  background-color: rgb(125, 196, 224);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  line-height: 80px;
+  display: inline-block;
+  text-align: center;
+}
+.skill {
+  color: #f1ebeb;
+  background-color: rgb(196, 196, 80);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  line-height: 80px;
+  display: inline-block;
+  text-align: center;
+}
+.each a:hover {
+  opacity: 0.7;
+}
+.lead {
+  font-size: 15px;
+  line-height: normal;
+}
+.information {
+  background: rgba(232, 53, 86, 1);
+  color: #f1ebeb;
+  font-size: 13px;
+  display: flex;
+  padding: 10px 0 8px;
+  margin: 15px 0;
+}
+.tel {
+  align-self: center;
+  margin-left: auto;
+}
+.mail {
+  align-self: center;
+  margin-left: auto;
+}
+.twitter {
+  margin: 0 auto;
+}
+.copy {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-bottom: 7px;
+}
+
+@media print, screen and (min-width: 768px) {
+  header h1 {
+    margin: 0;
+    padding-left: 100px;
+    font-size: 55px;
+    line-height: 2.0;
+  }
+  header img {
+    margin-top: 5px;
+    margin-right: 50px;
+  }
+  .hoge ul {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .hoge li {
+    font-size: 18px;
+  }
+  .wrap {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 90px;
+  }
+  .top-pic {
+    padding: 0;
+    margin-right: 40px;
+  }
+  .top-pic img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+  .catch-logo {
+    font-size: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .each {
+    width: 400px;
+    padding: 0;
+    margin: 30px auto;
+  }
+  .career {
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+  }
+  .baz {
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+  }
+  .skill {
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+  }
+  .lead {
+    font-size: 18px;
+    width: 500px;
+  }
+  .information {
+    font-size: 14px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+}
